@@ -25,7 +25,7 @@ This assignment is general structured that it builds on itself. That is, perform
 All data needed for part 1 of the assigment is available in the file `spr21_spotifyData.RData`. The `RData` contains five datasets and can be inported into R with the `load()` function. The datasets included are
 
 * `artist_df` -- A data.frame containing the names, and Spotify IDs for 389 artist.  These artist were selected based on having a popular song sometime over the past 5 years on the Pop Music, Rock Music or Country charts.
-* `album_artist_df` -- A data.frame mapping the artist (and their Spotify IDs) to all their recorded studio albums, including the album name, its Spotify ID, its type (album or single) and its release date (either a date or a year).
+* `album_artist_df` -- A data.frame mapping the artist (and their Spotify IDs) to all their recorded studio albums, including the album name, its Spotify ID, its type (album, compilation or single) and its release date (either a date or a year).
 * `tracks_df` -- A data.frame with 72156 rows recording a track (i.e., song) name, Spotify track ID, an indicator determining if the song includes *explicit lyrics* and the Spotify **popularity** score.
 * `album_track_df` -- A data.frame with 72156 rows but only two columns mapping all Spotify track IDs with their correspond Spotify album IDs.
 * `track_features` -- A data.frame with 72143 rows record track IDs along with a series of audio *features* as reported by Spotify. This includes
